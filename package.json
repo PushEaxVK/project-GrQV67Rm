@@ -1,12 +1,14 @@
 {
-  "name": "vanilla-app-template",
+  "name": "project-grqv67rm",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/vanilla-app-template/",
-    "preview": "vite preview"
+    "build": "vite build --base=/project-GrQV67Rm/",
+    "preview": "vite preview",
+    "start": "vite --host",
+    "push": "node commit.js"
   },
   "devDependencies": {
     "glob": "^11.0.0",
